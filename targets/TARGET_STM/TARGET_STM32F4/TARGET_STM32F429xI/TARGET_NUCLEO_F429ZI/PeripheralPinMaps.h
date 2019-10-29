@@ -363,6 +363,7 @@ MSTD_CONSTEXPR_OBJ_11 PinMap PinMap_CAN_TD[] = {
 };
 
 #define PINMAP_ANALOGIN PinMap_ADC
+#define PINMAP_ANALOGIN_INTERNAL PinMap_ADC_Internal
 #define PINMAP_ANALOGOUT PinMap_DAC
 #define PINMAP_I2C_SDA PinMap_I2C_SDA
 #define PINMAP_I2C_SCL PinMap_I2C_SCL
@@ -375,5 +376,7 @@ MSTD_CONSTEXPR_OBJ_11 PinMap PinMap_CAN_TD[] = {
 #define PINMAP_SPI_MISO PinMap_SPI_MISO
 #define PINMAP_SPI_SSEL PinMap_SPI_SSEL
 #define PINMAP_PWM PinMap_PWM
+#define PINMAP_CAN_TD PinMap_CAN_TD
+#define PINMAP_CAN_RD PinMap_CAN_RD
 
 #endif
