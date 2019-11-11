@@ -7277,6 +7277,12 @@
         "release_versions": ["5"],
         "device_name": "nRF52840_xxAA"
     },
+    "NRF52840_MDK": {
+        "inherits": ["MCU_NRF52840"],
+        "release_versions": ["5"],
+        "device_name": "nRF52840_xxAA",
+        "detect_code": ["1026"]
+    },
     "MTB_LAIRD_BL654": {
         "inherits": ["MCU_NRF52840"],
         "release_versions": ["5"],
